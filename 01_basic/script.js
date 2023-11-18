@@ -39,5 +39,3 @@ const compareMark = !(mgmgMark < kokoMark);
     ||      => OR operator      (eg => 33 == 33 || 44 == 45)  | if all false , return false
     &&      => AND operator     (eg => 33 == 33 && 44 == 45)  | if all true , return true
 */
-
-//  Su Thet a yu ma!
