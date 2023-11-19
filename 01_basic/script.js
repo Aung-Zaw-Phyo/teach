@@ -39,3 +39,39 @@ const compareMark = !(mgmgMark < kokoMark);
     ||      => OR operator      (eg => 33 == 33 || 44 == 45)  | if all false , return false
     &&      => AND operator     (eg => 33 == 33 && 44 == 45)  | if all true , return true
 */
+
+
+
+// --------------- Day 3 ----------------
+
+let tuntunHeight = 5.6;
+let mgmgHeight = 5.6; // float
+
+if (mgmgHeight > tuntunHeight) {
+    console.log('Mg Mg is taller than Tun Tun.')
+} else if (tuntunHeight > mgmgHeight) {
+    console.log('Tun Tun is taller than Mg Mg.')
+} else {
+    console.log("Mg Mg's height is same Tun Tun's")
+}
+
+
+let answer = 3;
+
+switch (answer) {
+    case 3:
+        console.log('Answer is number 3.')
+        // code
+        break;
+    case 5:
+        console.log('Answer is number 5.')
+        // code
+        break;
+    case 10:
+        console.log('Answer is number 10')
+        // code
+        break;
+    default:
+        console.log('Answer is not same with our checking number.')
+        break;
+}
