@@ -109,3 +109,27 @@
     pop     =>  Remove element at the last of array
     shift   =>  Remove element at the first of array 
 */
+
+
+// Object
+
+// const obj = {
+//     song: 'Bla Bla',
+//     book: 'new book',
+// };
+
+// obj['name'] = 'suthet'
+// obj['age'] = 15
+
+// console.log(obj)
+
+
+// const person = {
+//     name: 'Aung Zaw Phyo',
+//     age: 20,
+//     isSingle: true,
+//     hobbies: ['football', 'gaming', 'bicycling'],
+//     run: () => {
+//         return 'He is running.'
+//     }
+// }
