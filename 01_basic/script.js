@@ -133,3 +133,101 @@
 //         return 'He is running.'
 //     }
 // }
+
+
+// Function (ES6)
+
+// function run() {
+//     console.log('He is running . ****************** ')
+// }
+
+// const run = (num1, num2) => {
+//     return +num1 + +num2
+// }
+
+// const number = run(4, '5');
+
+// console.log(number)
+
+// const play = (name) => {
+//     console.log(name, ' is playing')
+// }
+
+// play('Mg Mg and Su Su')
+
+
+
+
+
+
+const calculate = (num1, num2, action) => {
+    switch (action) {
+        case '+':
+            console.log(num1 + num2)
+            break;
+        case '*':
+            console.log(num1 * num2)
+            break;
+        case '-':
+            console.log(num1 - num2)
+            break;
+        case '/':
+            console.log(num1 / num2)
+            break;
+        default:
+            console(num1, num2)
+            break;
+    }
+}
+
+calculate(3, 5, '*')
+
+
+
+
+
+// const promotionTypes = [
+//     'GOLD', // Free Ticket
+//     'SILVER', // 20% promotion
+//     'NORMAL' // not promotion
+// ]
+
+
+// const persons = [{
+//         name: 'Daw Mya',
+//         phone: '091234556789',
+//         email: 'dawaye@gmail.com',
+//         type: promotionTypes[0], // gold
+//     },
+//     {
+//         name: 'Aung Aung',
+//         phone: '09321132133',
+//         email: 'aungaung@gmail.com',
+//         type: promotionTypes[2] // normal
+//     },
+//     {
+//         name: 'Su Su',
+//         phone: '0954564656546',
+//         email: 'susu@gmail.com',
+//         type: promotionTypes[1] // silver
+//     }
+// ]
+
+
+// const checkMember = (user) => {
+//     switch (user.type) {
+//         case promotionTypes[0]:
+//             console.log('You are GOLD member, GET FREE TICKET!', user.name);
+//             break;
+//         case promotionTypes[1]:
+//             console.log('You are SILVER member, GET 20% PROMOTION!', user.name);
+//             break;
+//         case promotionTypes[2]:
+//             console.log('You are normal member, အားပေးပါ', user.name);
+//             break;
+//         default:
+//             console.log('You are not member.');
+//     }
+// }
+
+// checkMember(persons[0])
