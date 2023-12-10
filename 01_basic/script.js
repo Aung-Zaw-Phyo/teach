@@ -160,27 +160,27 @@
 
 
 
-const calculate = (num1, num2, action) => {
-    switch (action) {
-        case '+':
-            console.log(num1 + num2)
-            break;
-        case '*':
-            console.log(num1 * num2)
-            break;
-        case '-':
-            console.log(num1 - num2)
-            break;
-        case '/':
-            console.log(num1 / num2)
-            break;
-        default:
-            console(num1, num2)
-            break;
-    }
-}
+// const calculate = (num1, num2, action) => {
+//     switch (action) {
+//         case '+':
+//             console.log(num1 + num2)
+//             break;
+//         case '*':
+//             console.log(num1 * num2)
+//             break;
+//         case '-':
+//             console.log(num1 - num2)
+//             break;
+//         case '/':
+//             console.log(num1 / num2)
+//             break;
+//         default:
+//             console(num1, num2)
+//             break;
+//     }
+// }
 
-calculate(3, 5, '*')
+// calculate(3, 5, '*')
 
 
 
