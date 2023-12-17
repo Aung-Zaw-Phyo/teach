@@ -45,7 +45,7 @@ const students = [{
 //     grade: "D"
 // }
 
-const result = students.map((std) => { // return final array with all items
+const result = students.map((std) => { // return final array with all items in original array
     return std
 })
 
